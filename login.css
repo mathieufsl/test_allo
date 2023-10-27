@@ -76,7 +76,7 @@ form input[type="text"], form input[type="password"] {
     text-align: center;
     font-family: 'Handlee', cursive;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 45px;
     /*border: none; /* Supprimer les bordures des champs de texte */
     border: 1px solid #ffca00; /* Ajouter une bordure jaune en bas des champs de texte */
 }
@@ -91,7 +91,7 @@ form input[type="text"], form input[type="password"] {
     border: 2px solid #ffca00;
     border-radius: 5px;
     padding: 10px 20px;
-    font-size: 30px;
+    font-size: 40px;
     cursor: pointer;
     font-family: 'Handlee', cursive;
     font-weight: bold;
