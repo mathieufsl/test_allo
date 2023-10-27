@@ -21,7 +21,7 @@ body {
 h2 {
     color: #ffca00;
     font-family: 'Bungee Inline', sans-serif;
-    font-size: 40px;
+    font-size: 60px;
     margin:0;
 }
 
@@ -29,14 +29,14 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh;
+    height:30vh;
     margin: 0px;
 }
 
 .container {
     background-color: #393d4a;
-    width: 400px;
-    height: 300px;
+    width: 600px;
+    height: 500px;
     padding: 20px;
     border: 4px solid #ffca00;
     border-radius: 10px;
@@ -49,7 +49,7 @@ h3 {
     text-align: center;
     color: #ffca00;
     font-family: 'Bungee Inline', sans-serif;
-    font-size: 60px;
+    font-size: 100px;
     /*font-variant: small-caps;
     /*font-family: 'Permanent Marker', cursive;*/
     /*font-family: "Toony Line", sans-serif;*/
@@ -59,7 +59,7 @@ h3 {
     text-align: center;
     color: #ffca00;
     font-family: 'Handlee', cursive !important;
-    font-size: 50px;
+    font-size: 80px;
     /*font-variant: small-caps;
     /*font-family: 'Permanent Marker', cursive;*/
     /*font-family: "Toony Line", sans-serif;*/
@@ -76,7 +76,7 @@ form input[type="text"], form input[type="password"] {
     text-align: center;
     font-family: 'Handlee', cursive;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 25px;
     /*border: none; /* Supprimer les bordures des champs de texte */
     border: 1px solid #ffca00; /* Ajouter une bordure jaune en bas des champs de texte */
 }
@@ -91,7 +91,7 @@ form input[type="text"], form input[type="password"] {
     border: 2px solid #ffca00;
     border-radius: 5px;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 30px;
     cursor: pointer;
     font-family: 'Handlee', cursive;
     font-weight: bold;
