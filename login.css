@@ -1,0 +1,117 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #393d4a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.un {
+    background-color: #2e2f34;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+h2 {
+    color: #ffca00;
+    font-family: 'Bungee Inline', sans-serif;
+    font-size: 40px;
+    margin:0;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0px;
+}
+
+.container {
+    background-color: #393d4a;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    border: 4px solid #ffca00;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    color: #ffca00;
+    font-family: 'Bungee Inline', sans-serif;
+    font-size: 60px;
+    /*font-variant: small-caps;
+    /*font-family: 'Permanent Marker', cursive;*/
+    /*font-family: "Toony Line", sans-serif;*/
+    margin: 0px;
+}
+.allo{
+    text-align: center;
+    color: #ffca00;
+    font-family: 'Handlee', cursive !important;
+    font-size: 50px;
+    /*font-variant: small-caps;
+    /*font-family: 'Permanent Marker', cursive;*/
+    /*font-family: "Toony Line", sans-serif;*/
+    margin: 0px;
+}
+form {
+    color: yellow;
+    text-align: center;
+    padding: 30px;
+}
+form input[type="text"], form input[type="password"] {
+    /*color: yellow !important;*/
+    background-color: #2e2f34;
+    text-align: center;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+    font-size: 35px;
+    /*border: none; /* Supprimer les bordures des champs de texte */
+    border: 1px solid #ffca00; /* Ajouter une bordure jaune en bas des champs de texte */
+}
+.buttonC {
+    text-align: center;
+    padding: 20px;
+}
+
+.Cbutton {
+    background-color: #2e2f34;
+    color: #ffca00;
+    border: 2px solid #ffca00;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Handlee', cursive;
+    font-weight: bold;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .global {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .global {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .global {
+    width: 300px;
+  }
+}
